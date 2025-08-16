@@ -1,0 +1,23 @@
+﻿# OS cruft
+.DS_Store
+Thumbs.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Captures / large outputs (keep reviewed samples only)
+*.pcap
+*.pcapng
+*.cap
+*.log
+
+# Nmap XML/gnmap can be large - keep in results/ only
+!nmap-scans/results/
+
+# Secrets
+*.pem
+*.key
+*.cer
+*.pfx
+.env
